@@ -14,7 +14,7 @@ class Player(pygame.sprite.Sprite):
 
 
         #movement
-        self.dumping = 0.93
+        self.dumping = 0
         self.direction = pygame.Vector2()
         self.speed = 500
         self.collision_sprites = collision_sprites
